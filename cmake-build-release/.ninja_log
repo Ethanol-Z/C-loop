@@ -1,0 +1,15 @@
+# ninja log v6
+93	635	7537168821824724	CMakeFiles/loop.dir/util.cpp.obj	7f6f5f70ea7972d9
+31	776	7537168821197562	CMakeFiles/loop.dir/T1.cpp.obj	a3383cd4ef56e9cc
+1	787	7537168820898351	CMakeFiles/loop.dir/main.cpp.obj	f45a5e9683a11564
+55	797	7537168821441813	CMakeFiles/loop.dir/T2.cpp.obj	33992407d429d669
+161	817	7537168822497683	CMakeFiles/loop.dir/T4.cpp.obj	86d9f6ecaa795cd7
+191	826	7537168822798528	CMakeFiles/loop.dir/T5.cpp.obj	93a508359f73898c
+210	837	7537168822983723	CMakeFiles/loop.dir/T6.cpp.obj	9f376343a6ed21b8
+248	844	7537168823368531	CMakeFiles/loop.dir/T8.cpp.obj	743bfc480b488d2e
+136	862	7537168822253476	CMakeFiles/loop.dir/T3.cpp.obj	90f7f669001ae44c
+275	876	7537168823639515	CMakeFiles/loop.dir/T9.cpp.obj	de35eb9a9328634f
+309	937	7537168823979066	CMakeFiles/loop.dir/T10.cpp.obj	6b0b3d1cc97253e5
+227	947	7537168823152521	CMakeFiles/loop.dir/T7.cpp.obj	3b74add0bf80079a
+334	981	7537168824226102	CMakeFiles/loop.dir/T11.cpp.obj	4eba2c618b7da8e7
+982	1270	7537168830706055	loop.exe	9ccffd234d5c3b67
