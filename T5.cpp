@@ -12,7 +12,7 @@ void T5() {
     }
     i = 0;
     while (ch[i] != EOF) {
-        if (ch[i] == ' ') {
+        if (ch[i] == ' ' && ch[i] != '\n') {
             space++;
         }
         else if (ch[i] >= '0' && ch[i] <= '9') {
@@ -20,6 +20,9 @@ void T5() {
         }
         else if (ch[i] >= 'A' && ch[i] <= 'Z' || ch[i] >= 'a' && ch[i] <= 'z') {
             chr++;
+        }
+        else if (ch[i] == '\n') {
+            //continue;
         }
         else {
             other++;
