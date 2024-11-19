@@ -5,7 +5,7 @@ void T5() {
     int i = 0;
     int chr = 0, num = 0, space = 0, other = 0;
     char ch[10000] = {0};
-    cout << "Type something..." << endl;
+    cout << "Type something..." << endl << "To end your input, just hit enter, then Ctrl-Z, and hit enter again, which will send a EOF to the program." << endl;
     while (ch[i-1] != EOF) {
         ch[i] = getchar();
         i++;
@@ -26,5 +26,5 @@ void T5() {
         }
         i++;
     }
-    cout << chr << " " << num << " " << other << " " << space << endl;
+    cout << "Characters: " << chr << ", " << "Numbers: " << num << ", "<< "Other characters(EOF not included.): " << other-1 << " " << space << endl;
 }
