@@ -16,7 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.3/CMakeSystem.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.3/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -290,7 +290,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.3/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.3/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -544,7 +544,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -618,7 +618,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.3/CMakeRCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.3/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -702,7 +702,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.3/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.3/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -806,7 +806,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -817,7 +817,7 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "E:/Clang/C-loop/cmake-build-debug",
+		"build" : "E:/Clang/C-loop/cmake-build-release",
 		"source" : "E:/Clang/C-loop"
 	},
 	"version" : 
