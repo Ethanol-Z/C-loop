@@ -26,5 +26,5 @@ void T5() {
         }
         i++;
     }
-    cout << "Characters: " << chr << ", " << "Numbers: " << num << ", "<< "Other characters(EOF not included.): " << other-1 << " " << space << endl;
+    cout << "Characters: " << chr << ", " << "Numbers: " << num << ", "<< "Other characters(EOF not included.): " << other-1 << " " << "Spaces: " << space << endl;
 }
