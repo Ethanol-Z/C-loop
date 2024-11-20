@@ -1,17 +1,22 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 void T11() {
-    int a, n;
-    int ans = 0, temp;
-    cout << "Enter two numbers, it will run like a+aa+aaa+..." << endl;
-    cin >> a >> n;
-    for (int i = 0; i <= n; i++) {
-        temp = 0;
-        for (int j = 0; j < i; j++) {
-            temp += pow(10,j);
+    for (int i = 3; i >= 0; i--) {
+        for (int j = i; j >= 0; j--) {
+            cout << ' ';
         }
-        ans += a*temp;
+        for (int j = 1; j <= 7-2*i; j++) {
+            cout << '*';
+        }
+        cout << endl;
     }
-    cout << ans << endl;
+    for (int i = 1; i <= 3; i++) {
+        for (int j = i; j >= 0; j--) {
+            cout << ' ';
+        }
+        for (int j = 1; j <= 7-2*i; j++) {
+            cout << '*';
+        }
+        cout << endl;
+    }
 }

@@ -1,12 +1,10 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
-extern int factorial(int);
 void T8() {
-    int a, ans = 0;
-    cout << "Enter a number: ";
-    cin >> a;
-    for (int i = 1; i <= a; i++) {
-        ans += factorial(i);
+    double pi = 0;
+    for (int i = 1; i <= 1e6; i+=4) {
+        pi += ((1.0/i)-(1.0/(i+2.0)));
     }
-    cout << ans << endl;
+    cout << "Pi = " << 4.0*pi << endl;
 }

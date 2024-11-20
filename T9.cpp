@@ -1,13 +1,12 @@
 #include <iostream>
 using namespace std;
+extern int factorial(int);
 void T9() {
-    for (int i = 0; i <= 33; i++) {
-        for (int j = 0; j <= 50; j++) {
-            for (int k = 0; k <= 200; k++) {
-                if (3*i+2*j+k/2 == 100 && i+j+k == 100) {
-                    cout << "Big horses: "<< i << " , medium horses: "<< j << " , small horses: "<< k << endl;
-                }
-            }
-        }
+    int a, ans = 0;
+    cout << "Enter a number: ";
+    cin >> a;
+    for (int i = 1; i <= a; i++) {
+        ans += factorial(i);
     }
+    cout << ans << endl;
 }

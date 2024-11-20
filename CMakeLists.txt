@@ -11,8 +11,8 @@ add_executable(loop main.cpp
         T4.cpp
         T5.cpp
         T6.cpp
-        T7.cpp
         T8.cpp
         T9.cpp
         T10.cpp
-        T11.cpp)
+        T11.cpp
+        T7.cpp)
