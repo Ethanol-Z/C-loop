@@ -1,3 +1,0 @@
-E:/Clang/C-loop/cmake-build-release/CMakeFiles/loop.dir
-E:/Clang/C-loop/cmake-build-release/CMakeFiles/edit_cache.dir
-E:/Clang/C-loop/cmake-build-release/CMakeFiles/rebuild_cache.dir
